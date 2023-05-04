@@ -1,0 +1,71 @@
+/*Cabecalho*/
+
+.cabecalho{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.808);
+}
+
+.cabecalho h1{
+    color: blue;
+}
+
+.cabecalho nav{
+    display: inline-block;
+   margin-top: 10px;
+}
+.cabecalho nav ul li{
+    padding: 5px;
+}
+
+.cabecalho nav ul li a{
+    padding: 5px;
+}
+
+.cabecalho nav ul li a:hover{
+   color: blue;
+   background-color: aliceblue;
+   border-radius: 10px;
+}
+
+.principal h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.principal article{
+    padding: 10px;
+}
+
+.principal article p{
+    display: inline-block;
+    text-align: justify;
+}
+
+.principal article h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.principal article p a{
+    padding: 2px;
+    background-color: aqua;
+    border-radius: 5px;
+    color: brown;
+}
+
+.rodape{
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.rodape h1{
+    text-align: center;
+}
+.rodape ul{
+    text-align: center;
+}
+
+.rodape ul li{
+    display: inline-block;
+}
+
