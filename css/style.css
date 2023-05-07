@@ -1,16 +1,36 @@
 /*Cabecalho*/
 
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
+}
+
+
 .cabecalho{
     text-align: center;
-    background-color: rgba(240, 248, 255, 0.808);
+    background-color: #003478;
+    border-bottom: solid 2px black;
 }
 
 .cabecalho h1{
-    color: blue;
+    color: white;
+}
+
+.cabecalho .menu{
+    width: 60px;
+}
+.cabecalho .menu:hover{
+    width: 70px;
+    transition: 0.5s;
+}
+
+
+#menu2{
+    display: none;
 }
 
 .cabecalho nav{
-    display: inline-block;
+    display: none;
    margin-top: 10px;
 }
 .cabecalho nav ul li{
@@ -18,13 +38,22 @@
 }
 
 .cabecalho nav ul li a{
+    font-size: 1.5em;
     padding: 5px;
+    color: white;
 }
 
 .cabecalho nav ul li a:hover{
-   color: blue;
-   background-color: aliceblue;
+    font-size: 2em;
+   color: #c60c30;
    border-radius: 10px;
+   font-weight: bolder;
+   transition: 0.5s;
+}
+
+.imagem{
+    width: 200px;
+    
 }
 
 .principal h1{
@@ -34,11 +63,13 @@
 
 .principal article{
     padding: 10px;
+    border-top: solid 1px #003478
 }
 
 .principal article p{
     display: inline-block;
     text-align: justify;
+    line-height: 35px;
 }
 
 .principal article h2{
@@ -47,25 +78,48 @@
 }
 
 .principal article p a{
-    padding: 2px;
-    background-color: aqua;
+    padding: 0px  5px 0px 5px;
+    background-color: #003478;
     border-radius: 5px;
-    color: brown;
+    color: white;
 }
+
+.principal article p a:hover{
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+
+
+/* Rodape */
 
 .rodape{
     padding: 10px;
-    background-color: aliceblue;
+    background-color: #003478;
 }
 
-.rodape h1{
+.rodape p{
+    font-weight: lighter;
     text-align: center;
+    color: white;
 }
 .rodape ul{
+    margin: 20px;
     text-align: center;
 }
 
 .rodape ul li{
     display: inline-block;
+}
+
+.rede-sociais{
+    width: 30px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 10px;
+}
+
+.rede-sociais:hover{
+    width: 50px;
+    transition: 0.5s;
+
 }
 
