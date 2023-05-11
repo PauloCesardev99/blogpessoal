@@ -1,7 +1,7 @@
 /*Cabecalho*/
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
 }
 
@@ -14,9 +14,11 @@ body{
 
 .cabecalho h1{
     color: white;
+    font-family: 'Press Start 2P', sans-serif;
 }
 
 .cabecalho .menu{
+    margin-top:30px;
     width: 60px;
 }
 .cabecalho .menu:hover{
@@ -46,14 +48,19 @@ body{
 .cabecalho nav ul li a:hover{
     font-size: 2em;
    color: #c60c30;
-   border-radius: 10px;
    font-weight: bolder;
    transition: 0.5s;
 }
 
+/* Principal */
+
 .imagem{
+    display: block;
+    text-align: center;
+}
+
+.imagem img{
     width: 200px;
-    
 }
 
 .principal h1{
@@ -63,6 +70,9 @@ body{
 
 .principal article{
     padding: 10px;
+}
+
+.bordararticle{
     border-top: solid 1px #003478
 }
 

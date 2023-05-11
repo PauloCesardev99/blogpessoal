@@ -1,0 +1,51 @@
+
+@media (min-width: 600px) {
+
+
+    .cabecalho{
+        display: flex;
+        justify-content: space-evenly;
+        height: 100px;
+    }
+
+    .cabecalho h1{
+        align-self: center;
+    }
+    .cabecalho menu {
+       display: none;
+      
+    }
+
+    #nav{
+        display: block;
+        align-self: flex-end;
+    }
+
+    #nav ul{
+        display: flex;
+    }
+
+    .cabecalho nav ul li a:hover{
+        font-size: 1.5em;
+       color: #c60c30;
+       font-weight: bolder;
+       transition: 0.5s;
+    }
+
+    /* Conteudo principal*/
+
+    .principal{
+        width: 800px;
+        margin: auto; 
+        padding: 5px;
+        border: solid 1px black;
+        border-radius: 10px;
+        margin-top: 10px ;
+        margin-bottom: 10px;
+        box-shadow: 1px 1px 5px  black;
+    }
+
+    .imagem img{
+        border: solid 1px #c60c316c;
+    }
+}
