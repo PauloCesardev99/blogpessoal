@@ -68,6 +68,11 @@ body{
     padding: 10px;
 }
 
+.principal h3{
+    text-align: center;
+    padding: 10px;
+}
+
 .principal article{
     padding: 10px;
 }
@@ -97,6 +102,27 @@ body{
 .principal article p a:hover{
     font-size: 1.5em;
     transition: 0.5s;
+}
+
+.r3ro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.r3ro img {
+
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+    border: solid 1px  #003478;
+
+    border-radius: 50%;
+}
+
+.r3ro p {
+    padding: 0px 0px 0px 10px;
+    height: 40px;
 }
 
 

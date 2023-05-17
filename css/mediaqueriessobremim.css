@@ -1,0 +1,55 @@
+@media (min-width: 600px){
+    .body{
+        display: grid;
+        grid-template-areas: "cabecalho cabecalho"
+                            "sobre sobre"
+                            "rodape rodape";
+    }
+    .cabecalho{
+        grid-area: cabecalho;
+        display: flex;
+        justify-content: space-evenly;
+        height: 100px;
+    }
+
+    .cabecalho h1{
+        align-self: center;
+    }
+    .cabecalho menu {
+       display: none;
+      
+    }
+
+    #nav{
+        display: block;
+        align-self: flex-end;
+    }
+
+    #nav ul{
+        display: flex;
+    }
+
+    .cabecalho nav ul li a:hover{
+        font-size: 1.5em;
+       color: #c60c30;
+       font-weight: bolder;
+       transition: 0.5s;
+    }
+
+
+    .sobre{
+        grid-area: sobre;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rodape{
+            grid-area: rodape;
+    }
+
+    .imagem img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+}
