@@ -52,4 +52,14 @@
         height: 250px;
         border-radius: 50%;
     }
+
+    .imagemhabilidades{
+        margin-left: 10px;
+    }
+
+    .habilidades{
+        display: flex;
+        justify-content: center;
+    }
+
 }
