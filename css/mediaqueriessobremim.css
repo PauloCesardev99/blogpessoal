@@ -54,12 +54,18 @@
     }
 
     .imagemhabilidades{
+        width: 100px;
+        height: 100px;
         margin-left: 10px;
     }
 
     .habilidades{
         display: flex;
         justify-content: center;
+    }
+
+     .sobre article p{
+      padding-right: 10px;
     }
 
 }
